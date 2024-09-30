@@ -1,0 +1,17 @@
+//This is
+
+#include<stdio.h>
+ 
+int main()
+{
+    int x;
+    long long y;
+    char c;
+    float t;
+    double d;
+    scanf("%d %lld %c %f %lf", &x, &y, &c, &t, &d);
+    printf("%d\n", x);
+    printf("%lld\n%c\n", y, c);
+    printf("%.2f\n%.1f\n", t, d);
+    return 0;
+}
