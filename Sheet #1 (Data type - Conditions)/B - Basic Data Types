@@ -1,4 +1,4 @@
-//This is
+//This version of the code is written in C language.
 
 #include<stdio.h>
  
@@ -9,9 +9,31 @@ int main()
     char c;
     float t;
     double d;
+
     scanf("%d %lld %c %f %lf", &x, &y, &c, &t, &d);
+
     printf("%d\n", x);
     printf("%lld\n%c\n", y, c);
     printf("%.2f\n%.1f\n", t, d);
+
+    return 0;
+}
+
+// This version of the code is written in C++ language.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    long long y;
+    char c;
+    float t;
+    double d;
+
+    cin >> x >> y >> c >> t >> d;
+    cout << x << endl << y << endl << c << endl << t << endl << d;
+
     return 0;
 }
