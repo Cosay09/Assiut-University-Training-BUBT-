@@ -1,0 +1,24 @@
+//This version of the code is written in C language.
+
+#include <stdio.h>
+ 
+int main() 
+{
+    char name[100];
+    scanf("%s", name);
+    printf("Hello, %s", name);
+    return 0;
+}
+
+//This version of the code is written in C++ language
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  string name;
+  cin >> name;
+  cout << "Hello, " << name;
+  return 0;
+}
