@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+    double r;
+    double pi = 3.141592653;
+    scanf("%lf", &r);
+    double s = pi * r * r;
+    printf("%.9f", s);
+    return 0;
+}
+
