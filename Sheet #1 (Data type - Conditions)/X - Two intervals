@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int l1, r1, l2, r2;
+
+    // Input
+    scanf("%d %d", &l1, &r1);
+    scanf("%d %d", &l2, &r2);
+    
+    int left_boundary = (l1 > l2) ? l1 : l2;
+    int right_boundary = (r1 < r2) ? r1 : r2;
+
+    if (left_boundary <= right_boundary) 
+    {
+        printf("%d %d\n", left_boundary, right_boundary);
+    } 
+    else 
+    {
+        printf("-1\n");
+    }
+}
