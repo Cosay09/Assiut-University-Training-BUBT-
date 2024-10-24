@@ -1,0 +1,19 @@
+# include <stdio.h>
+
+int main()
+{
+    float x;
+    scanf("%f",&x);
+
+    int y = x;
+
+    if ( (x - y) == 0 )
+    {
+        printf("int %.0f\n", x-(x-y));
+    }
+
+    else
+    {
+        printf("float %.0f %.3f\n",x-(x-y) ,(x-y));
+    }
+}
